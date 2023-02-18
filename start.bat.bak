@@ -1,0 +1,2 @@
+java -jar server.jar -Xms4G -Xmx4G nogui --installServer
+PAUSE

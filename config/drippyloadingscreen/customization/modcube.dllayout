@@ -1,0 +1,67 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = packmenu/screenmc.png
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  x = 16
+  action = editlogo
+  y = -4
+}
+
+customization {
+  visible = false
+  x = -2
+  action = editprogressbar
+  y = -41
+  barcolor = cc1b1b
+}
+
+customization {
+  orientation = top-left
+  x = 132
+  width = 376
+  actionid = 9eea5b80-2cb0-4953-9912-7dad1f9016611672780064985
+  y = 315
+  action = addcustomprogressbar
+  height = 16
+  direction = right
+  barcolor = #cc1b1b
+  backgroundcolor = #380b0b
+}
+
+customization {
+  orientation = top-centered
+  shadow = true
+  x = -2
+  textcolor = #ffffff
+  action = addtext
+  actionid = c15f2bca-2df3-4851-b53b-4f462ca016611672780199145
+  y = 13
+  scale = 2.0
+  alignment = left
+  value = Bienvenue sur Modecube %playername%
+}
+
+customization {
+  orientation = bottom-centered
+  bartexture = packmenu/bgdloading.png
+  x = 4
+  width = 275
+  actionid = 6c2b754f-b2d2-478b-b125-c5acb492afa81673483666024
+  y = -18
+  action = addcustomprogressbar
+  backgroundtexture = packmenu/barloading.png
+  height = 11
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
